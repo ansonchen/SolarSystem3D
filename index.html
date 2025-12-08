@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System 3D Visualization</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="ui-container">
+        <!-- 顶部控制栏 -->
+        <div class="hud-header">
+            <button id="back-btn" class="hud-btn hidden">
+                <span class="icon">←</span> SYSTEM VIEW
+            </button>
+
+            <div class="header-controls" style="display: flex; gap: 15px; pointer-events: auto;">
+                <!-- 新增：名字开关 -->
+                <button id="name-btn" class="hud-btn active">
+                    <span class="icon">👁</span> NAME: ON
+                </button>
+
+                <!-- 新增：音乐开关 -->
+                <button id="audio-btn" class="hud-btn">
+                    <span class="icon">♫</span> AUDIO: OFF
+                </button>
+            </div>
+        </div>
+
+        <!-- 底部控制栏 -->
+        <div class="hud-footer">
+            <button id="toggle-orbit" class="hud-btn">
+                PAUSE ORBIT
+            </button>
+            <div id="controls-hint">
+                <span>DRAG TO ROTATE</span>
+                <span class="separator">|</span>
+                <span>SCROLL TO ZOOM</span>
+            </div>
+        </div>
+
+        <!-- 信息面板 -->
+        <div id="info-panel" class="glass-panel hidden">
+            <div class="panel-header">
+                <h2 id="info-title">PLANET NAME</h2>
+                <button id="info-close">×</button>
+            </div>
+            <div id="info-desc"></div>
+        </div>
+    </div>
+
+    <!-- 音频源 (使用更稳定的音频源) -->
+    <audio id="bgm-source" loop crossorigin="anonymous">
+        <!-- <source src="https://actions.google.com/sounds/v1/ambiences/space_shuttle.ogg" type="audio/ogg"> -->
+    </audio>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
