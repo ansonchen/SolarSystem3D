@@ -1,8 +1,12 @@
 # 🌌 Solar System 3D Visualization
 
 [中文文档](./README_CN.md) | **English**
-
 > *"Discover the cosmic dance of planets and stars, where each celestial body tells a story of gravity, time, and the infinite beauty of our universe."*
+> 
+<img width="3840" height="1875" alt="screenshot1" src="https://github.com/user-attachments/assets/447dcf76-ccc3-46cb-bab6-c3f926c9b55b" />
+
+<img width="3840" height="1875" alt="earth" src="https://github.com/user-attachments/assets/219a9b2d-7fdb-4ec0-a22a-bee86455aa81" />
+
 
 An immersive, educational 3D simulation of the Solar System that brings the wonders of space exploration to your browser. Journey through the cosmos and witness the elegant ballet of planetary motion, from Mercury's swift orbit to Neptune's distant waltz around our Sun.
 
