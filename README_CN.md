@@ -1,8 +1,11 @@
-# 🌌 太阳系3D可视化
+# 🌌 太阳系3D可视化项目
 
 **中文文档** | [English](./README.md)
 
 > *"探索行星和恒星的宇宙舞蹈，每一个天体都诉说着引力、时间和宇宙无限美丽的故事。"*
+<img width="3840" height="1875" alt="screenshot1" src="https://github.com/user-attachments/assets/0d921b26-bcba-41fd-860a-5051099f28c4" />
+
+<img width="3840" height="1875" alt="earth" src="https://github.com/user-attachments/assets/1962a50d-b110-42d8-8d0a-748f72266732" />
 
 这是一个沉浸式的教育型太阳系3D模拟程序，将太空探索的奇迹带到您的浏览器中。踏上宇宙之旅，见证行星运动的优雅芭蕾，从水星的快速轨道到海王星围绕太阳的遥远华尔兹。
 
