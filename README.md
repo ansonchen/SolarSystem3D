@@ -7,8 +7,8 @@
 
 <img width="3840" height="1875" alt="earth" src="https://github.com/user-attachments/assets/219a9b2d-7fdb-4ec0-a22a-bee86455aa81" />
 
-
-An immersive, educational 3D simulation of the Solar System that brings the wonders of space exploration to your browser. Journey through the cosmos and witness the elegant ballet of planetary motion, from Mercury's swift orbit to Neptune's distant waltz around our Sun.
+An immersive, educational 3D simulation of the Solar System that brings the wonders of space exploration to your browser. Journey through the cosmos and witness the elegant ballet of planetary motion, from Mercury's swift orbit to Neptune's distant waltz around our Sun. 
+> Demo: https://solarsystem.smart-ai-demo.com
 
 > ⚡ Built with **[DeepV Code](https://dvcode.deepvlab.ai/)** - Making programming smarter and more efficient
 
